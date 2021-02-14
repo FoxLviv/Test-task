@@ -1,0 +1,12 @@
+D:\Test task\BOTest\DB\bin\Debug\netcoreapp3.1\DB.deps.json
+D:\Test task\BOTest\DB\bin\Debug\netcoreapp3.1\DB.runtimeconfig.json
+D:\Test task\BOTest\DB\bin\Debug\netcoreapp3.1\DB.runtimeconfig.dev.json
+D:\Test task\BOTest\DB\bin\Debug\netcoreapp3.1\DB.dll
+D:\Test task\BOTest\DB\bin\Debug\netcoreapp3.1\DB.pdb
+D:\Test task\BOTest\DB\obj\Debug\netcoreapp3.1\DB.csprojAssemblyReference.cache
+D:\Test task\BOTest\DB\obj\Debug\netcoreapp3.1\DB.AssemblyInfoInputs.cache
+D:\Test task\BOTest\DB\obj\Debug\netcoreapp3.1\DB.AssemblyInfo.cs
+D:\Test task\BOTest\DB\obj\Debug\netcoreapp3.1\DB.csproj.CoreCompileInputs.cache
+D:\Test task\BOTest\DB\obj\Debug\netcoreapp3.1\DB.dll
+D:\Test task\BOTest\DB\obj\Debug\netcoreapp3.1\DB.pdb
+D:\Test task\BOTest\DB\obj\Debug\netcoreapp3.1\DB.genruntimeconfig.cache

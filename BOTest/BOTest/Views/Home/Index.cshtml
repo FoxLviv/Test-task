@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    string[] TableHeaders = new string[]
+    {
+        "Name",
+        "Date of birth",
+        "Marrige",
+        "Phone",
+        "Salary"
+    };
+}
+
+<div class="text-center">
+    <h1 class="display-4">Test task</h1>
+    @*<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>*@
+</div>
+<form action="" id="frm">
+    <input type="text" placeholder="Name" autofocus="on">
+    <input type="text" placeholder="Date of birth">
+    <input type="text" placeholder="Married">
+    <input type="text" placeholder="Phone">
+    <input type="text" placeholder="Salary">
+</form>
+<table style="width:100%" id="filter-table">
+    <thead>
+        <tr>
+            @{
+                foreach (var head in TableHeaders)
+                {
+                    <th>
+                        @head
+                    </th>
+                }
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            if (Model != null)
+            {
+                foreach (var Data in Model)
+                {
+                    <tr>
+                        <td>@Data.Name</td>
+                        <td>@Data.DateOfBirth</td>
+                        <td>@Data.Married</td>
+                        <td>@Data.Phone</td>
+                        <td>@Data.Salary</td>                        
+                    </tr>
+                }
+            }
+        }
+    </tbody>
+</table>
+
+<div>
+    <h4>File upload</h4>
+    <form asp-controller="Home" asp-action="SingleFile"
+          enctype="multipart/form-data" method="post">
+        <input type="file" name="file" />
+        <button type="submit">Submit</button>
+    </form>
+</div>
